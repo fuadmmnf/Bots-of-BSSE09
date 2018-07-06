@@ -31,25 +31,25 @@ export const robots =[
 	},
 	{
 		id : 6 ,
-		name : 'Md. Aminul Islam',
+		name : 'Md Aminul Islam',
 		roll : '0906',
 		email: 'bsse0906@iit.du.ac.bd'
 	},
 	{
 		id : 7 ,
-		name : 'Md. Alamgir Kabir',
+		name : 'Md Alamgir Kabir',
 		roll : '0907',
 		email: 'bsse0907@iit.du.ac.bd'
 	},
 	{
 		id : 8 ,
-		name : 'Md. Atiquer Rahman',
+		name : 'Md Atiquer Rahman',
 		roll : '0908',
 		email: 'bsse0908@iit.du.ac.bd'
 	},
 	{
 		id : 9,
-		name : 'Md. Mehedi Hasan',
+		name : 'Md Mehedi Hasan',
 		roll : '0909',
 		email: 'bsse0909@iit.du.ac.bd'
 	},

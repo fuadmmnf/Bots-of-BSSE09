@@ -3,6 +3,7 @@ import React,{Component} from 'react';
 import RobotList from './RobotList';
 import {robots} from './Robots';
 import SearchBox from './SearchBox';
+import './App.css';
 import 'tachyons';
 
 
