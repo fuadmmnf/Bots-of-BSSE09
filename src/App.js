@@ -3,6 +3,7 @@ import React,{Component} from 'react';
 import RobotList from './RobotList';
 import {robots} from './Robots';
 import SearchBox from './SearchBox';
+import Scroll from './Scroll';
 import './App.css';
 import 'tachyons';
 
@@ -35,7 +36,9 @@ class App extends Component {
 			<div className='tc'>
 			<h1>RoboFriends</h1>
 			<SearchBox searchChange={this.onSearchChange}/>
-			<RobotList robots={filteredRobots}/>
+			<Scroll>
+				<RobotList robots={filteredRobots}/>
+			</Scroll>
 			</div>
 		);
 	}
