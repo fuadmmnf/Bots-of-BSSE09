@@ -69,6 +69,7 @@ class App extends Component {
 		const filteredRobots = this.state.robots.filter(robots => 
 			{return robots.name.toLowerCase().includes(this.state.searchField.toLowerCase())});
 
+<<<<<<< HEAD
 		if(this.state.robots.length === 0)
 		{
 			return <h1>Loading</h1>
@@ -87,6 +88,17 @@ class App extends Component {
 					</div>
 			);
 		}
+=======
+		return(
+			<div className='tc'>
+			<h1>RoboFriends</h1>
+			<SearchBox searchChange={this.onSearchChange}/>
+			<Scroll>
+				<RobotList robots={filteredRobots}/>
+			</Scroll>
+			</div>
+		);
+>>>>>>> 69695003870d204a1d366293d6e582bfb7956c5e
 	}
 
 
